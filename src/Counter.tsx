@@ -10,7 +10,7 @@ interface State {
 
 export default class Counter extends React.Component<Props, State> {
   state: State = {
-    count: 10
+    count: 0
   }
 
   increment = () => {
