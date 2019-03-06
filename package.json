@@ -1,0 +1,30 @@
+{
+  "name": "react-with-typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/michaelthorne/react-with-typescript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/michaelthorne/react-with-typescript/issues"
+  },
+  "homepage": "https://github.com/michaelthorne/react-with-typescript#readme",
+  "dependencies": {
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4"
+  },
+  "devDependencies": {
+    "@types/react": "^16.8.6",
+    "@types/react-dom": "^16.8.2",
+    "parcel-bundler": "^1.11.0",
+    "typescript": "^3.3.3333"
+  }
+}
