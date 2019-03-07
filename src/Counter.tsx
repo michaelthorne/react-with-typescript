@@ -8,7 +8,7 @@ interface State {
   count: number
 }
 
-export default class Counter extends React.Component<Props, State> {
+class Counter extends React.Component<Props, State> {
   state: State = {
     count: 0
   }
@@ -35,3 +35,5 @@ export default class Counter extends React.Component<Props, State> {
     )
   }
 }
+
+export default Counter
